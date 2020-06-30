@@ -1,0 +1,192 @@
+page {
+	font-size: 28rpx;
+	line-height: 1.5;
+	color: #2c3e50;
+	background: #fff;
+	-webkit-overflow-scrolling: touch; /*使iOS列表滑动流畅*/
+}
+
+button {
+	color: #333;
+}
+page,
+view,
+input,
+text,
+form,
+navigator,
+rich-text,
+picker,
+scroll-view,
+cover-view,
+open-data {
+	box-sizing: border-box;
+}
+rich-text,
+open-data,
+form {
+	display: block;
+}
+cover-view {
+	line-height: 1.5;
+	white-space: normal;
+}
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+	display: none;
+}
+button:after {
+	border: 0;
+}
+
+.bg-type-primary{
+	background-color: $uni-type-primary; 
+}
+.bg-type-primary-light{
+	background-color: $uni-type-primary-light; 
+}
+.bg-type-primary-disabled{
+	background-color: $uni-type-primary-disabled; 
+}
+.bg-type-primary-dark{
+	background-color: $uni-type-primary-dark; 
+}
+.bg-type-warning{
+	background-color: $uni-type-warning; 
+}
+.bg-type-warning-light{
+	background-color: $uni-type-warning-light; 
+}
+.bg-type-warning-disabled{
+	background-color: $uni-type-warning-disabled; 
+}
+.bg-type-warning-dark{
+	background-color: $uni-type-warning-dark; 
+}
+.bg-type-success{
+	background-color: $uni-type-success; 
+}
+.bg-type-success-disabled{
+	background-color: $uni-type-success-disabled; 
+}
+.bg-type-success-dark{
+	background-color: $uni-type-success-dark; 
+}
+.bg-type-success-light{
+	background-color: $uni-type-success-light; 
+}
+.bg-type-error{
+	background-color: $uni-type-error; 
+}
+.bg-type-error-disabled{
+	background-color: $uni-type-error-disabled; 
+}
+.bg-type-error-dark{
+	background-color: $uni-type-error-dark; 
+}
+.bg-type-error-light{
+	background-color: $uni-type-error-light; 
+}
+.bg-type-info{
+	background-color: $uni-type-info; 
+}
+.bg-type-info-disabled{
+	background-color: $uni-type-error-disabled; 
+}
+.bg-type-info-dark{
+	background-color: $uni-type-error-dark; 
+}
+.bg-type-info-light{
+	background-color: $uni-type-error-light; 
+}
+/*每个页面公共css */
+.content{
+	width: 100%;
+}
+.img{
+	width: 100%;
+	height: 100%;
+}
+.unishadow{
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04)
+}
+.width{
+	width: 100%;
+}
+.height{
+	height: 100%;
+}
+/* 定位 */
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+.sticky{
+	position: sticky;
+}
+.top{
+	top: 0;
+}
+.bottom{
+	bottom: 0;
+}
+.left{
+	left: 0;
+}
+.right{
+	right: 0;
+}
+/* 文字 */
+/* Banner文字 */
+.font_banner{
+	font-size: 100rpx;
+	line-height:150rpx;
+	text-align: left;
+	color:#1B1B1B;
+}
+/* 界面分组标题文字 */
+.font_group{
+	font-size: $uni-font-size-lg;
+	line-height:90rpx;
+	text-align: left;
+	color:#1B1B1B;
+}
+/* 正文文字 */
+.font_text{
+	font-size: $uni-font-size-base;
+	line-height:42rpx;
+	text-align: left;
+	color:#1B1B1B;
+}
+/* 弱提示文字 */
+.font_tips{
+	font-size: $uni-font-size-sm;
+	line-height:36rpx;
+	text-align: left;
+	color:#1B1B1B;
+}
+/* 边框色 */
+.color_border{
+	color: $u-border-color; 
+}
+.bg-white{
+	background: #FFFFFF;
+}
+/* border-radius */
+.radius0{
+	border-radius: 0;
+}
+.radius{
+	border-radius: $uni-border-radius-base;
+}
+.box-wh{
+	width: 750upx;
+	max-width: 750upx; 
+	height: 102upx;
+}.text-wrap{	word-wrap: break-word;	word-break: break-all;	overflow: hidden;}
