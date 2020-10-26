@@ -2,13 +2,17 @@
   "pages": [
     "pages/index/index"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "pages/subPackages/account",
+      "pages": [
+        "login"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "pageOrientation": "portrait"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

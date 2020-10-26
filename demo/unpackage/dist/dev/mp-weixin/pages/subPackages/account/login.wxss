@@ -1,0 +1,10 @@
+
+.content{
+	width: 100vw;
+	height: 100vh;
+}
+.logo {
+	width: 300rpx;
+	height: 150rpx;
+}
+

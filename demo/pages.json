@@ -3,14 +3,34 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none", // 取消iOS回弹,避免和下拉刷新冲突
+					"softinputNavBar": "none"
+				}
 			}
 		}
 	],
+	"subPackages":[
+		{
+    		"root": "pages/subPackages/account",
+    		"pages": [{
+    			"path": "login",
+    			"style": {
+					"navigationBarTitleText": "",
+					"navigationBarBackgroundColor":"#FFFFFF",
+					"app-plus": {
+						"bounce": "none", // 取消iOS回弹,避免和下拉刷新冲突
+						"softinputNavBar": "none"
+					}
+    			}
+    		}
+		]}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"pageOrientation": "portrait"
 	}
 }
